@@ -12,7 +12,9 @@ To use it, all you need to do is import the *read.py* file, and call the readDat
 
 Function signature is as follows:
 
-```list<type_T> readDataFromFile(<string> filename, <string> delimiter, <function> conversion_func)```
+```python
+list<type_T> readDataFromFile(<string> filename, <string> delimiter, <function> conversion_func)
+```
 
 Regarding the arguments. ```filename``` and ```delimiter``` are relatively straightforward. ```conversion_func``` is the function passed in in order to parse the data contents the proper way. For instance, if the data consisted of integers, ```conversion_func``` would be ```int```.  
 
